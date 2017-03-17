@@ -40,15 +40,17 @@ Für Bestandsverläufe von Zeitschriften und deren Verfügbarkeit gibt es versch
 [ECPO]: http://cklee.github.io/ecpo/
 [MWO]: http://dini-ag-kim.github.io/movingwall/
 [ONIX for Serials]: http://www.editeur.org/files/ONIX%20for%20Serials%20-%20Coverage/20120326_ONIX_Coverage_overview_v1_0.pdf
-[BIBRFAME]: http://id.loc.gov/ontologies/bibframe.html
+[BIBFRAME]: http://id.loc.gov/ontologies/bibframe.html
 
 ### Übersicht von allgemeinen Konvertierungs-Tools und Frameworks
 
 Basierend auf vorhandenen Listen (z.B. [im Catmandu-Wiki](https://github.com/LibreCat/Catmandu/wiki/Related-Projects)) und eigenen Recherchen soll eine Übersicht von allgemeinen Tools/Frameworks erstellt werden, die in Bibliotheksnahen Projekten zur Datenkonvertierung eingesetzt werden. Gefordert ist keine praktische Evaluation sondern ein Vergleich mittels geeigneter Kennzahlen und anderer Metadaten (Alter, Aktualität, Verbreitung, Lizenz, Community, technische Grundlagen...), die Vorstellung in einem Kurzvortrag und die Ausarbeitung als Report von 2-6 Seiten.
 
-### ...
+### Normalisierung von Dokumentformaten für einfache Beschreibungstexte
 
-...
+Auf Basis des Kommandozeilentools [pandoc] ist ein einfacher (Web?)dienst zu entwickeln, zu dokumentieren und im Kurzvortrag zu beschreiben, der Texte in den von Pandoc unterstützten Dokumentformaten (Word, OpenOffice, HTML, LaTeX...) hinsichtlich ihrer Formatierungsmöglichkeiten einschränkt. Das eingeschränkte Dokumentmodell soll für einfache Beschreibunsgtexte mit Bildern geeignet sein wie sie beispielsweise auf Hinweistafeln in Ausstellungen zu finden sind.
+
+[pandoc]: http://pandoc.org/
 
 ### ...
 
