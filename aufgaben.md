@@ -20,7 +20,7 @@
 
 ### The Many Forms of a Single Fact
 
-Der 1989 erschienene Artikel [The Many Forms of a Single Fact](http://www.bkent.net/Doc/manyform.htm) von William Kent ist ein Klassiker der Datenmodellierung. Der Artikel soll in verschiedener Form (Kurzvortrag und Wikipedia-Artikel) auf Deutsch zusammengefasst und hinsichtlich seiner Relevanz bewertet werden.
+Der 1989 erschienene Artikel [The Many Forms of a Single Fact](http://www.bkent.net/Doc/manyform.htm) von William Kent ist ein Klassiker der Datenmodellierung. Der Artikel soll als Kurzvortrag und Wikipedia-Artikel auf Deutsch zusammengefasst und hinsichtlich seiner Relevanz bewertet werden.
 
 ### Ontology-Mapping mit Wikidata
 
@@ -52,9 +52,12 @@ Auf Basis des Kommandozeilentools [pandoc] ist ein einfacher (Web?)dienst zu ent
 
 [pandoc]: http://pandoc.org/
 
-### ...
+### Beschreibung der Reconciliation Service API
 
-...
+Zum Abgleich eigener Daten mit verschiedenen Bibliotheksrelevanten (Norm)Datenquellen (VIAF, Wikidata, Lobid u.A.) mittels [OpenRefine] wird die [Reconciliation Service API] verwendet. Dazu gibt es verschiedene Tutorials (*das "Wie"*) und wir werden die API im Rahmen der Lehrveranstaltung ausprobieren. Es fehlt allerdings bislang eine allgemeine, deutschsprachige Beschreibung (*das "Was"*) der Reconcliation Service API mit technischen Details und Hintergründen. Eine solche Beschreibung ist als Wikipedia-Artikel zu verfassen und im Kurzvortrag vorzustellen.
+
+[OpenRefine]: https://en.wikipedia.org/wiki/OpenRefine
+[Reconciliation Service API]: https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 
 ### ...
 
