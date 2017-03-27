@@ -2,9 +2,9 @@
 
 ## Allgemeine Hinweise
 
-* Bei Unklarheiten bitte so früh wie möglich fragen.
+* Bei Unklarheiten bitte so früh wie möglich fragen!
 
-* Kurzvortrag heisst etwa 15-20 Minuten Vortrag.
+* Kurzvortrag heisst etwa 20 Minuten Vortrag plus Diskussion.
 
 * Gehört zur Prüfungsleistung das **Verfassen eines Wikipedia-Artikels** so ist
   damit ein [Artikelentwurf] im Benutzernamensraum der Wikipedia gemeint.
@@ -58,10 +58,6 @@ Zum Abgleich eigener Daten mit verschiedenen Bibliotheksrelevanten (Norm)Datenqu
 
 [OpenRefine]: https://en.wikipedia.org/wiki/OpenRefine
 [Reconciliation Service API]: https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
-
-### ...
-
-...
 
 ### ...
 
