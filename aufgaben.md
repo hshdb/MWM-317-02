@@ -39,6 +39,12 @@ Eine Mittelgroße Ontologie (20-40 Klassen und Properties) soll soweit möglich 
 [P2235]: https://www.wikidata.org/wiki/Property:P2235
 [P2236]: https://www.wikidata.org/wiki/Property:P2236
 
+### Übersicht von Personen-Identifiern in Wikidata
+
+Wikidata enthält über 500 [Properties zur Identifizierung von Personen]. Diese verschiedenen Arten von Personen-IDs sollen mit geeigneten SPARQL-Anfragen ausgewertet und gruppiert werden, beispielsweise welche IDs häufig zusammen vorkommen oder aus welcher Art von Datenbank die IDs stammen. Als Dokumentation reichen neben dem Kurzvortrag die erstellten Tabellen/Diagramme und verwendten Abfragen.
+
+[Properties zur Identifizierung von Personen]: https://www.wikidata.org/wiki/Wikidata:List_of_properties/Person/Authority_control
+
 ### Vergleich von Datemodellen für Bestandsverläufe
 
 Für Bestandsverläufe von Zeitschriften und deren Verfügbarkeit gibt es verschiedene Formate und Ontologien (ZDB/GBV/BSZ-PICA, [ONIX for Serials], [MARC Holdings], [ECPO]/[MWO], [BIBFRAME]). Ihre gemeinsamen Elemente und Strukturen sollen anhand eines Vergleichs mit Beispielen herausgearbeitet, im Kurzvortrag beschrieben und in einer Zusammenstellung (kurzer Text mit Tabellen und Beispielen) dokumentiert werden.

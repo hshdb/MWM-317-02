@@ -58,6 +58,17 @@ Text
 Dafür
   : Datenmodell analysieren und Wikidata bearbeiten
 
+### Übersicht von Personen-Identifiern in Wikidata
+
+Ziel
+  : Erstellung einer Übersicht 
+
+Text
+  : Tabellen, Diagramme und SPARQL-Anfragen
+
+Dafür
+  : Arbeit mit SPARQL und Tabellenkalkulation
+
 ## Vergleich von Datemodellen für Bestandsverläufe
 
 Ziel
