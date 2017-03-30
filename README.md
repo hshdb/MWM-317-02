@@ -15,6 +15,49 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 
 * Expo Plaza 12, Raum - 2.31
 
+## Themen
+
+### 1.4. 9-13 Uhr
+
+* **Grundlagen** der Datenverarbeitung und -modellierung
+  <!-- __ - grundlagen-daten.md -->
+
+* **Aufgaben** für Prüfungsleistungen 
+  <!-- OK - aufgaben-vorstellung.md -->
+
+* **Grundlagen der Datenintegration**
+  <!-- OK - grundlagen-datenintegration.md -->
+
+* **Wikidata**, eine integrierende Datenbank
+  <!-- __ - wikidata.md -->
+
+### 21.4. 14-17:30 Uhr
+
+* **Identität und Identifizierung** als Grundlage jeder Integration
+  <!-- __ - identifikation.md -->
+
+* Integration von **Dokumentformaten**
+  <!-- __ - dokumentformate.md -->
+
+* **Mapping und Matching** von Ontologien und Schemata
+  <!-- __ - mapping-und-matching.md -->
+
+* **OpenRefine** als Beispiel eines Integrationswerkzeugs
+  <!-- __ - openrefine.md -->
+
+### 10.6. 9-12 und 13-16:30 Uhr
+
+* **Methoden** der Datenintegration
+  <!-- __ - methoden-der-datenintegration.md -->
+
+* **Maschinelle Sprachverarbeitung** zur Informationsintegration
+  <!-- __ - maschinelle-sprachverarbeitung.md -->
+
+* **Muster und Paradigma** in Daten
+  <!-- __ - muster-und-paradigma.md -->
+
+* ...
+
 ## Dokumente
 
 Für interne Dokumente gibt es einen geschlossenen Moodle-Bereich:
