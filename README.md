@@ -32,7 +32,7 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
   <!-- OK - grundlagen-datenintegration.md -->
 
 * **Wikidata**, eine integrierende Datenbank
-  <!-- __ - wikidata.md -->
+  <!-- OK - wikidata.md -->
 
 ### 21. April (14-18)
 
