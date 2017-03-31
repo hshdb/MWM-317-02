@@ -239,8 +239,7 @@ Einteilung nach [@Leser2006]
 
 ## Strukturelle Heterogenität: Beispiel
 
-\columnsstart
-\column{.5\textwidth}
+\columstart
 \small
 
 ~~~.json
@@ -251,7 +250,7 @@ Einteilung nach [@Leser2006]
 }
 ~~~
 
-\column{.5\textwidth}
+\columnext
 \small
 
 ~~~.json
@@ -262,7 +261,7 @@ Einteilung nach [@Leser2006]
 }
 ~~~
 
-\columnsend
+\columend
 
 ## Strukturelle Heterogenität: Lösungen
 

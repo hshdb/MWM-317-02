@@ -46,6 +46,8 @@ nocite: |
 
 ## Dokumente
 
+\small
+
 * Vortragsfolien im Repository\
   <https://github.com/hshdb/MWM-317-02>
 
@@ -89,6 +91,7 @@ nocite: |
 * Methoden der Datenintegration
 * Maschinelle Sprachverarbeitung
 * Muster und Paradigma in Daten
+* Kurzvorträge zu den Aufgaben
 * ...*ihre Wünsche?*
 
 \vfill

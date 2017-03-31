@@ -10,17 +10,20 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 ## Zeit und Ort
 
 * Samstag, 1.4. 9:00 bis 13:00
-* Freitag, 21.4. 14:00 bis 17:30
+* Freitag, 21.4. 14:00 bis 18:00
 * Samstag, 10.6. 9:00 bis 16:30 (mit Mittagspause)
 
 * Expo Plaza 12, Raum - 2.31
 
 ## Themen
 
-### 1.4. 9-13 Uhr
+### 1. April (9-13)
+
+* **Einleitung**
+  <!-- OK - einleitung.md -->
 
 * **Grundlagen** der Datenverarbeitung und -modellierung
-  <!-- __ - grundlagen-daten.md -->
+  <!-- OK - grundlagen-daten.md -->
 
 * **Aufgaben** für Prüfungsleistungen 
   <!-- OK - aufgaben-vorstellung.md -->
@@ -31,7 +34,7 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 * **Wikidata**, eine integrierende Datenbank
   <!-- __ - wikidata.md -->
 
-### 21.4. 14-17:30 Uhr
+### 21. April (14-18)
 
 * **Identität und Identifizierung** als Grundlage jeder Integration
   <!-- __ - identifikation.md -->
@@ -45,7 +48,10 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 * **OpenRefine** als Beispiel eines Integrationswerkzeugs
   <!-- __ - openrefine.md -->
 
-### 10.6. 9-12 und 13-16:30 Uhr
+### 10. Juni (9-12 und 13-16:30)
+
+* **Schemafreie Daten**
+  <!-- __ - schemafreiheit.md -->
 
 * **Methoden** der Datenintegration
   <!-- __ - methoden-der-datenintegration.md -->

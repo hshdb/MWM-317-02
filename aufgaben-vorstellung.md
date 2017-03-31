@@ -47,6 +47,17 @@ Text
 Dafür
   : Spezifikation verstehen und wiedergeben
 
+## Übersicht von Personen-Identifiern in Wikidata
+
+Ziel
+  : Erstellung einer Übersicht 
+
+Text
+  : Tabellen, Diagramme und SPARQL-Anfragen
+
+Dafür
+  : Arbeit mit SPARQL und Tabellenkalkulation
+
 ## Ontology-Mapping mit Wikidata
 
 Ziel
@@ -58,16 +69,18 @@ Text
 Dafür
   : Datenmodell analysieren und Wikidata bearbeiten
 
-### Übersicht von Personen-Identifiern in Wikidata
+*auch mehrfach möglich*
+
+## Mapping der GND-Ontologie nach JSKOS
 
 Ziel
-  : Erstellung einer Übersicht 
+  : Vervollständigung und Beschreibung einer Konkordanz
 
 Text
-  : Tabellen, Diagramme und SPARQL-Anfragen
+  : Vollständige Konkordanz mit Beschreibung
 
 Dafür
-  : Arbeit mit SPARQL und Tabellenkalkulation
+  : Verständnis von RDF, GND(-Ontologie) und (J)SKOS
 
 ## Vergleich von Datemodellen für Bestandsverläufe
 

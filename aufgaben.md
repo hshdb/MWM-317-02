@@ -29,6 +29,12 @@ Zum Abgleich eigener Daten mit verschiedenen Bibliotheksrelevanten (Norm)Datenqu
 [OpenRefine]: https://en.wikipedia.org/wiki/OpenRefine
 [Reconciliation Service API]: https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API
 
+### Übersicht von Personen-Identifiern in Wikidata
+
+Wikidata enthält über 500 [Properties zur Identifizierung von Personen]. Diese verschiedenen Arten von Personen-IDs sollen mit geeigneten SPARQL-Anfragen ausgewertet und gruppiert werden, beispielsweise welche IDs häufig zusammen vorkommen oder aus welcher Art von Datenbank die IDs stammen. Als Dokumentation reichen neben dem Kurzvortrag die erstellten Tabellen/Diagramme und verwendten Abfragen.
+
+[Properties zur Identifizierung von Personen]: https://www.wikidata.org/wiki/Wikidata:List_of_properties/Person/Authority_control
+
 ### Ontology-Mapping mit Wikidata
 
 Eine Mittelgroße Ontologie (20-40 Klassen und Properties) soll soweit möglich mit den entsprechenden Mapping-Properties ([P1628], [P1709], [P2888], [P2235], [P2236]) auf Wikidata gemappt und werden. Das Ergebnis und die beim Mapping gewonnenen Erkenntnisse sind in einem Kurzvortrag zu präsentieren. 
@@ -39,11 +45,12 @@ Eine Mittelgroße Ontologie (20-40 Klassen und Properties) soll soweit möglich 
 [P2235]: https://www.wikidata.org/wiki/Property:P2235
 [P2236]: https://www.wikidata.org/wiki/Property:P2236
 
-### Übersicht von Personen-Identifiern in Wikidata
+### Mapping der GND-Ontologie nach JSKOS
 
-Wikidata enthält über 500 [Properties zur Identifizierung von Personen]. Diese verschiedenen Arten von Personen-IDs sollen mit geeigneten SPARQL-Anfragen ausgewertet und gruppiert werden, beispielsweise welche IDs häufig zusammen vorkommen oder aus welcher Art von Datenbank die IDs stammen. Als Dokumentation reichen neben dem Kurzvortrag die erstellten Tabellen/Diagramme und verwendten Abfragen.
+Das [vorhandene Mapping](https://github.com/gbv/jskos-php-examples/blob/master/src/lib/GNDService.yaml) der [GND-Ontologie] auf das [JSKOS]-Format soll vervollständigt und beschrieben werden, so dass [per Wrapper](https://jskos-php-examples.herokuapp.com/) GND-Datensätze in JSKOS abgerufen werden können. Die konkordanz soll beschrieben werden und wo Mappings nicht möglich/sinnvoll sind, dies begründet werden.
 
-[Properties zur Identifizierung von Personen]: https://www.wikidata.org/wiki/Wikidata:List_of_properties/Person/Authority_control
+[GND-Ontologie]: http://d-nb.info/standards/elementset/gnd
+[JSKOS]: https://gbv.github.io/jskos/jskos.html
 
 ### Vergleich von Datemodellen für Bestandsverläufe
 
@@ -64,4 +71,5 @@ Auf Basis des Kommandozeilentools [pandoc] ist ein einfacher (Web?)dienst zu ent
 ### Übersicht von allgemeinen Konvertierungs-Tools und Frameworks
 
 Basierend auf vorhandenen Listen (z.B. [im Catmandu-Wiki](https://github.com/LibreCat/Catmandu/wiki/Related-Projects)) und eigenen Recherchen soll eine Übersicht von allgemeinen Tools/Frameworks erstellt werden, die in Bibliotheksnahen Projekten zur Datenkonvertierung eingesetzt werden. Gefordert ist keine praktische Evaluation sondern ein Vergleich mittels geeigneter Kennzahlen und anderer Metadaten (Alter, Aktualität, Verbreitung, Lizenz, Community, technische Grundlagen...), die Vorstellung in einem Kurzvortrag und die Ausarbeitung als Report von 2-6 Seiten.
+
 

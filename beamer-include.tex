@@ -1,0 +1,33 @@
+% Beamer theme
+\definecolor{beamer@blendedblue}{rgb}{0.73,0.25,0.25}
+
+% footer
+\setbeamercolor{footlinecolor}{fg=gray,bg=white}
+
+\setbeamertemplate{footline}{%
+  \begin{beamercolorbox}[sep=0.5em,leftskip=0.5em,rightskip=0.5em]{footlinecolor}
+  \insertshortauthor: 
+  \insertshorttitle. \insertsubtitle~(\insertdate)
+  \hfill
+  \insertpagenumber~~\includegraphics[height=2ex]{img/by-sa.png}
+  \end{beamercolorbox}%
+}
+
+\setbeamertemplate{navigation symbols}{}
+
+% omit "figure X"
+\setbeamertemplate{caption}{\insertcaption}
+\setbeamertemplate{caption label separator}{}
+
+% omit caption if empty
+\usepackage{ifthen}
+\let\savedCaption=\caption
+\renewcommand\caption[1]{%
+  \ifthenelse{\equal{#1}{}}{}{\savedCaption{#1}}%
+}
+
+% Utility commands
+
+\newcommand{\columstart}{\begin{columns}\column{.5\textwidth}}
+\newcommand{\columnext}{\column{.5\textwidth}}
+\newcommand{\columend}{\end{columns}}
