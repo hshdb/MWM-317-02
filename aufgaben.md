@@ -37,13 +37,22 @@ Wikidata enthält über 500 [Properties zur Identifizierung von Personen]. Diese
 
 ### Ontology-Mapping mit Wikidata
 
-Eine Mittelgroße Ontologie (20-40 Klassen und Properties) soll soweit möglich mit den entsprechenden Mapping-Properties ([P1628], [P1709], [P2888], [P2235], [P2236]) auf Wikidata gemappt und werden. Das Ergebnis und die beim Mapping gewonnenen Erkenntnisse sind in einem Kurzvortrag zu präsentieren. 
+Eine Mittelgroße Ontologie (30-40 Klassen und Properties) soll soweit möglich mit den entsprechenden Mapping-Properties ([P1628], [P1709], [P2888], [P2235], [P2236]) auf Wikidata gemappt und werden. Das Ergebnis und die beim Mapping gewonnenen Erkenntnisse sind in einem Kurzvortrag zu präsentieren. 
 
 [P1628]: https://www.wikidata.org/wiki/Property:P1628
 [P1709]: https://www.wikidata.org/wiki/Property:P1709
 [P2888]: https://www.wikidata.org/wiki/Property:P2888
 [P2235]: https://www.wikidata.org/wiki/Property:P2235
 [P2236]: https://www.wikidata.org/wiki/Property:P2236
+
+### Normalisierung von Dokumentformaten für einfache Beschreibungstexte
+
+Auf Basis des Kommandozeilentools [pandoc] ist ein einfacher (Web?)dienst zu entwickeln, zu dokumentieren und im Kurzvortrag zu beschreiben, der Texte in den von Pandoc unterstützten Dokumentformaten (Word, OpenOffice, HTML, LaTeX...) hinsichtlich ihrer Formatierungsmöglichkeiten einschränkt. Das eingeschränkte Dokumentmodell soll für einfache Beschreibunsgtexte mit Bildern geeignet sein wie sie beispielsweise auf Hinweistafeln in Ausstellungen zu finden sind.
+
+[pandoc]: http://pandoc.org/
+
+
+## Weitere, nicht verwendete Aufgabenideen
 
 ### Mapping der GND-Ontologie nach JSKOS
 
@@ -61,12 +70,6 @@ Für Bestandsverläufe von Zeitschriften und deren Verfügbarkeit gibt es versch
 [MWO]: http://dini-ag-kim.github.io/movingwall/
 [ONIX for Serials]: http://www.editeur.org/files/ONIX%20for%20Serials%20-%20Coverage/20120326_ONIX_Coverage_overview_v1_0.pdf
 [BIBFRAME]: http://id.loc.gov/ontologies/bibframe.html
-
-### Normalisierung von Dokumentformaten für einfache Beschreibungstexte
-
-Auf Basis des Kommandozeilentools [pandoc] ist ein einfacher (Web?)dienst zu entwickeln, zu dokumentieren und im Kurzvortrag zu beschreiben, der Texte in den von Pandoc unterstützten Dokumentformaten (Word, OpenOffice, HTML, LaTeX...) hinsichtlich ihrer Formatierungsmöglichkeiten einschränkt. Das eingeschränkte Dokumentmodell soll für einfache Beschreibunsgtexte mit Bildern geeignet sein wie sie beispielsweise auf Hinweistafeln in Ausstellungen zu finden sind.
-
-[pandoc]: http://pandoc.org/
 
 ### Übersicht von allgemeinen Konvertierungs-Tools und Frameworks
 

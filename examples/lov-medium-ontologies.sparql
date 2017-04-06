@@ -6,15 +6,16 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dct: <http://purl.org/dc/terms/>
 
 SELECT DISTINCT ?prefix ?uri ?title ?size {
-	GRAPH <http://lov.okfn.org/dataset/lov>{
-		?uri a voaf:Vocabulary .
+    GRAPH <http://lov.okfn.org/dataset/lov>{
+        ?uri a voaf:Vocabulary .
         ?uri dct:title ?title .
-		?uri vann:preferredNamespacePrefix ?prefix.
+        FILTER (lang(?title) = 'en')
+        ?uri vann:preferredNamespacePrefix ?prefix.
         ?uri dcat:distribution [
-          voaf:classNumber ?classes ;
-          voaf:propertyNumber ?properties
+            voaf:classNumber ?classes ;
+            voaf:propertyNumber ?properties
         ]
         BIND ((?classes+?properties) AS ?size)      
-	}
-  FILTER(?size <= 40 && ?size >= 20) .
+    }
+  FILTER(?size <= 45 && ?size >= 30) .
 } ORDER BY ?vocabPrefix
