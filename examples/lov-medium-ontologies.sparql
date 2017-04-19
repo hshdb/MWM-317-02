@@ -1,21 +1,23 @@
-# Medium size ontologies from http://lov.okfn.org/dataset/lov/sparql
+# Medium size, non-trivial ontologies that are actually used, from http://lov.okfn.org/dataset/lov/sparql
 
 PREFIX vann:<http://purl.org/vocab/vann/>
 PREFIX voaf:<http://purl.org/vocommons/voaf#>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dct: <http://purl.org/dc/terms/>
 
-SELECT DISTINCT ?prefix ?uri ?title ?size {
+SELECT DISTINCT ?prefix ?uri ?title ?size ?datasets ?vocabularies {
     GRAPH <http://lov.okfn.org/dataset/lov>{
-        ?uri a voaf:Vocabulary .
-        ?uri dct:title ?title .
+        ?uri a voaf:Vocabulary ;
+             dct:title ?title ;
+             voaf:reusedByDatasets ?datasets ;
+             voaf:reusedByVocabularies ?vocabularies ;
+             vann:preferredNamespacePrefix ?prefix ;
+             dcat:distribution [ # TODO: sample the newest distribution only
+                 voaf:classNumber ?classes ;
+                voaf:propertyNumber ?properties
+             ] .
         FILTER (lang(?title) = 'en')
-        ?uri vann:preferredNamespacePrefix ?prefix.
-        ?uri dcat:distribution [
-            voaf:classNumber ?classes ;
-            voaf:propertyNumber ?properties
-        ]
         BIND ((?classes+?properties) AS ?size)      
     }
-  FILTER(?size <= 45 && ?size >= 30) .
+  FILTER(?size <= 45 && ?size >= 30 && ?classes > 4 && ?properties > 5 && (?datasets + ?vocabularies) > 1) .
 } ORDER BY ?vocabPrefix
