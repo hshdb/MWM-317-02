@@ -17,42 +17,41 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 
 ## Themen
 
-### 1. April (9-13)
+### 1. April (9-13 Uhr)
 
-* **Einleitung**
-  <!-- OK - einleitung.md -->
+* **Einleitung**\
+  [einleitung.md](einleitung.md)
+  ([PDF](einleitung.pdf))
 
-* **Grundlagen** der Datenverarbeitung und -modellierung
-  <!-- OK - grundlagen-daten.md -->
+* **Grundlagen** der Datenverarbeitung und -modellierung\
+  [grundlagen-daten.md](grundlagen-daten.md)
+  ([PDF](grundlagen-daten.pdf))
 
-* **Aufgaben** für Prüfungsleistungen 
-  <!-- OK - aufgaben-vorstellung.md -->
+* **Aufgaben** für Prüfungsleistungen\ 
+  [aufgaben-vorstellung.md](aufgaben-vorstellung.md)
+  ([PDF](aufgaben-vorstellung.pdf))
 
-* **Wikidata**, eine integrierende Datenbank
-  <!-- OK - wikidata.md -->
+* **Wikidata**, eine integrierende Datenbank\
+  [wikidata.md](wikidata.md) ([PDF](wikidata.pdf))
 
-### 21. April (14-18)
-
-* **Identität und Identifizierung** als Grundlage jeder Integration
-  <!-- __ - identifikation.md -->
-
-* Integration von **Dokumentformaten**
-  <!-- __ - dokumentformate.md -->
-
-Zwichenaufgabe:
-
-    - Finde nicht-personen die eine Personen-ID haben in Wikidata
-
-* **OpenRefine** als Beispiel eines Integrationswerkzeugs
-  <!-- __ - openrefine.md -->
+### 21. April (14-18 Uhr)
 
 * **Grundlagen der Datenintegration**
   <!-- OK - grundlagen-datenintegration.md -->
 
-* **Mapping und Matching** von Ontologien und Schemata
-  <!-- __ - mapping-und-matching.md -->
+* **Identität und Identifizierung** als Grundlage jeder Integration
+  <!-- __ - identifikation.md -->
+
+* Integration von **Dokumentformaten**\
+  [dokumentformate.md](dokumentformate.md) ([PDF](dokumentformate.pdf))
+
+* **OpenRefine** als Beispiel eines Integrationswerkzeugs
+  <!-- __ - openrefine.md -->
 
 ### 10. Juni (9-12 und 13-16:30)
+
+* **Mapping und Matching** von Ontologien und Schemata
+  <!-- __ - mapping-und-matching.md -->
 
 * **Schemafreie Daten**
   <!-- __ - schemafreiheit.md -->
