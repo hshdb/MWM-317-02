@@ -40,14 +40,11 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
   [grundlagen-datenintegration.md](grundlagen-datenintegration.md)
   [PDF](grundlagen-datenintegration.pdf)
 
-* **Identität und Identifizierung** als Grundlage jeder Integration
-  <!-- __ - identifikation.md -->
+* **Identität und Identifizierung**\
+  [identifikation.md](identifikation.md) ([PDF](identifikation.pdf))
 
 * Integration von **Dokumentformaten**\
   [dokumentformate.md](dokumentformate.md) ([PDF](dokumentformate.pdf))
-
-* **OpenRefine** als Beispiel eines Integrationswerkzeugs
-  <!-- __ - openrefine.md -->
 
 ### 10. Juni (9-12 und 13-16:30)
 
