@@ -36,8 +36,9 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 
 ### 21. April (14-18 Uhr)
 
-* **Grundlagen der Datenintegration**
-  <!-- OK - grundlagen-datenintegration.md -->
+* **Grundlagen der Datenintegration**\
+  [grundlagen-datenintegration.md](grundlagen-datenintegration.md)
+  [PDF](grundlagen-datenintegration.pdf)
 
 * **Identität und Identifizierung** als Grundlage jeder Integration
   <!-- __ - identifikation.md -->

@@ -1,7 +1,7 @@
 ---
 title: Semantische Datenintegration
-subtitle: Grundlagen
-author: 
+subtitle: Integration von Daten
+author:
   - Jakob Voß
 institute:
   - Hochschule Hannover
@@ -70,9 +70,15 @@ Semantische Datenintegration ist die **sinnvolle** Zusammenführung von
 
 * Verhält sich nach außen wie *eine* Datenquelle
 * Fasst intern verschiedene, heterogene Datenquellen zusammen
-* Details siehe @Leser2006 u.A. Informatik-Literatur
+* Details siehe Informatik @Leser2006 u.A.
 
-## Beispiele
+## Beispiele für integrierende Informationssysteme
+
+* ...
+* ...
+* ...
+
+## Beispiele für integrierende Informationssysteme
 
 * Metasuchmaschine
 * Data Warehouse
@@ -82,7 +88,7 @@ Semantische Datenintegration ist die **sinnvolle** Zusammenführung von
 ## Übung: Mashup von Bibliotheksdaten
 
 * Aufgabe
-    * Gegeben eine Bibliothek (ISIL) und PPN
+    * Gegeben eine Bibliothek (ISIL) und Buch (PPN)
     * Name der Bibliothek und Signaturen der Exemplare
 * Programmiersprache
     * Google Sheets
@@ -98,6 +104,29 @@ Semantische Datenintegration ist die **sinnvolle** Zusammenführung von
   2 PPN  508902037
   3 ID   opac-de-18:ppn:508902037
 --- ---- ------------------------
+
+## Übung: Mashup von Bibliotheksdaten
+
+    A    B
+--- ---- ------------------------
+  1 ISIL DE-18
+  2 PPN  508902037
+  3 ID   `="opac-" & LOWER(B1) & ":ppn:" & B2`
+--- ---- ------------------------
+
+## Übung: Mashup von Bibliotheksdaten
+
+\small
+
+~~~
+="http://daia.gbv.de/?format=xml&id=" & B3
+="http://ld.zdb-services.de/data/organisations/" & B1 & ".html"
+~~~
+
+~~~
+=IMPORTXML(B6, "/*/*/*/*[local-name()='label']")
+=IMPORTXML(C4,"//h2")`
+~~~
 
 ## Übung: Mashup von Bibliotheksdaten
 
@@ -122,26 +151,11 @@ Semantische Datenintegration ist die **sinnvolle** Zusammenführung von
 
 \endgroup
 
-## Übung: Mashup von Bibliotheksdaten
+## Reflexion
 
-    A    B
---- ---- ------------------------
-  1 ISIL DE-18
-  2 PPN  508902037
-  3 ID   `="opac-" & LOWER(B1) & ":ppn:" & B2`
---- ---- ------------------------
-
-## Übung: Mashup von Bibliotheksdaten
-
-~~~
-="http://daia.gbv.de/?format=xml&id=" & B3
-="http://ld.zdb-services.de/data/organisations/" & B1 & ".html"
-~~~
-
-~~~
-=IMPORTXML(B6, "/*/*/*/*[local-name()='label']")
-=IMPORTXML(C4,"//h2")`
-~~~
+* Zusammenführung verschiedener Quellen
+* Identifier helfen ungemein
+* Abfragesprachen allerorten
 
 # Herausforderungen
 
@@ -185,7 +199,8 @@ Semantische Datenintegration ist die **sinnvolle** Zusammenführung von
 * Keine Instanz kontrolliert alle Teile
 * Details der Implementierung können sich jederzeit ändern!
 
-* Datenquellen sind u.U. nicht darauf ausgelegt, integriert zu werden
+* Datenquellen sind nicht unbedingt darauf ausgelegt, einfach integriert zu werden
+  (u\.A. keine stabilen APIs)
 
 ## Autonomie: Beispiele
 
@@ -267,15 +282,15 @@ Einteilung nach [@Leser2006]
 
 * Konvertierung zwischen Formaten
 * Mapping von Schemas
-* Genauere Anwendungsregeln
+* Genauere Anwendungsregeln (=Schemas)
 
 ## Semantische Heterogenität
 
 * Unterschiedliche Bedeutung
 * Unterschiedliche Modelle
 * Unterschiedliche Grundannahmen
-* Abgrenzung zu struktureller Heterogenität
-  ist oft Teil des Problems
+* Abgrenzung zu struktureller Heterogenität\
+  ist oft Teil des Problems!
 
 ## Semantische Heterogeniät auf Schemaebene
 
@@ -287,7 +302,8 @@ Einteilung nach [@Leser2006]
 
 ## Semantische Heterogeniät auf Datenebene
 
-* Identität: Wann beziehen sich Datensätze oder Felder auf das gleiche Objekt?
+* Identität: Wann beziehen sich Datensätze oder Felder\
+  auf das gleiche Objekt?
     * $\rightarrow$ Objektidentifikation und Duplikaterkennung
 * Widersprüchliche Angaben (Datenkonflikte)
     * Zwei Datenquellen widersprechen sich
@@ -302,17 +318,44 @@ Einteilung nach [@Leser2006]
     * Closed World Assumption
     * Open World Assumption
 
+## Behebung von Datenkonflikten
+
+* Datenbereinigung
+    * Datenqualität
+    * Vereinheitlichung
+* Verschiedene Verfahren
+    * Duplikaterkennung
+    * Normdateien und Reconciliation
+    * Handarbeit
+
 ## Zusammenfassung der Herausforderungen
 
-* Datenquellen deren Zusammenführung (für gewisse Anwendungen) sinnvoll wäre
-  sind oft (zu einem gewissen Grad) verteilt und autonom
+* Datenquellen deren Zusammenführung sinnvoll wäre
+  sind oft verteilt und autonom
 
 * Datenquellen werden damit unkoordiniert und uneinheitlich
 
-* Dies führt zu heterogenen Daten(quellen)
+* Dies führt zu Heterogenität
 
 * Herausforderung semantischer Datenintegration:\
   **Überbrückung der Heterogenität**
 
+## Zusammenfassung
+
+* Integriertes Informationssystem
+    * Einheitliche Sicht über verschiedene Quellen
+    * Basiert auf Abfragen an verschiedene Quellen
+* Herausforderungen
+    * Verteilte Datenquellen (Verteilung)
+    * Datenquellen sind unabhängig (Autonomie)
+    * Daten sind uneinheitlich (Heterogenität)
+* Lösungen
+    * Datenqualität
+    * Datenverarbeitung
+    * Daumen Drücken
+
 ## Literatur
 
+\small
+Quellen dieser Folien: https://github.com/hshdb/MWM-317-02/\
+\
