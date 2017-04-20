@@ -28,9 +28,6 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 * **Aufgaben** für Prüfungsleistungen 
   <!-- OK - aufgaben-vorstellung.md -->
 
-* **Grundlagen der Datenintegration**
-  <!-- OK - grundlagen-datenintegration.md -->
-
 * **Wikidata**, eine integrierende Datenbank
   <!-- OK - wikidata.md -->
 
@@ -42,11 +39,18 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 * Integration von **Dokumentformaten**
   <!-- __ - dokumentformate.md -->
 
-* **Mapping und Matching** von Ontologien und Schemata
-  <!-- __ - mapping-und-matching.md -->
+Zwichenaufgabe:
+
+    - Finde nicht-personen die eine Personen-ID haben in Wikidata
 
 * **OpenRefine** als Beispiel eines Integrationswerkzeugs
   <!-- __ - openrefine.md -->
+
+* **Grundlagen der Datenintegration**
+  <!-- OK - grundlagen-datenintegration.md -->
+
+* **Mapping und Matching** von Ontologien und Schemata
+  <!-- __ - mapping-und-matching.md -->
 
 ### 10. Juni (9-12 und 13-16:30)
 
