@@ -61,12 +61,21 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 * Vorstellung: *Personen-Identifier in Wikidata*
 
 * Bericht zur Anwendung von *Wikidata als Normdaten-Hub*\
-  [wikidata-als-normdaten-hub.md](wikidata-als-normdaten-hub.md)
-  ([PDF](wikidata-als-normdaten-hub.pdf))
+  <https://hackmd.io/p/S1YmXWC0e>
 
 * *Mittagspause*
 
-...
+* Vorstellung: *Ontology-Mapping mit Wikidata*
+
+* **Mapping und Matching** von Ontologien und Schemata
+  [mapping-und-matching.md](mapping-und-matching.md)
+  ([PDF](mapping-und-matching.pdf))
+
+* Vorstellung: *Normalisierung von Dokumentformaten für einfache Beschreibungstexte*
+
+* **Künstliche Intelligenz** zur Informationsintegration\
+  [kuenstliche-intelligenz.md](kuenstliche-intelligenz.md])
+  [PDF](kuenstliche-intelligenz.pdf])
 
 ## Dokumente
 
