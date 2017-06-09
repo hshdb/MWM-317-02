@@ -38,7 +38,7 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 
 * **Grundlagen der Datenintegration**\
   [grundlagen-datenintegration.md](grundlagen-datenintegration.md)
-  [PDF](grundlagen-datenintegration.pdf)
+  ([PDF](grundlagen-datenintegration.pdf))
 
 * **Identität und Identifizierung**\
   [identifikation.md](identifikation.md) ([PDF](identifikation.pdf))
@@ -48,22 +48,25 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 
 ### 10. Juni (9-12 und 13-16:30)
 
-* **Mapping und Matching** von Ontologien und Schemata
-  <!-- __ - mapping-und-matching.md -->
+* **Methoden** der Datenintegration\
+  [methoden-der-datenintegration.md](methoden-der-datenintegration.md)
+  ([PDF](methoden-der-datenintegration.pdf))
+
+* Vorstellung: *The Many Forms of a Single Fact*
 
 * **Schemafreie Daten**
-  <!-- __ - schemafreiheit.md -->
+  [daten-und-schemas.md](daten-und-schemas.md)
+  ([PDF](daten-und-schemas.pdf))
 
-* **Methoden** der Datenintegration
-  <!-- __ - methoden-der-datenintegration.md -->
+* Vorstellung: *Personen-Identifier in Wikidata*
 
-* **Maschinelle Sprachverarbeitung** zur Informationsintegration
-  <!-- __ - maschinelle-sprachverarbeitung.md -->
+* Bericht zur Anwendung von *Wikidata als Normdaten-Hub*\
+  [wikidata-als-normdaten-hub.md](wikidata-als-normdaten-hub.md)
+  ([PDF](wikidata-als-normdaten-hub.pdf))
 
-* **Muster und Paradigma** in Daten
-  <!-- __ - muster-und-paradigma.md -->
+* *Mittagspause*
 
-* ...
+...
 
 ## Dokumente
 
