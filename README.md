@@ -3,7 +3,7 @@
 [Diese git-Repository](https://github.com/hshdb/MWM-317-02) enthält öffentliche
 Unterlagen zur Lehrveranstaltung *Semantische Datenintegration* die im
 Sommersemester 2017 an der [Hochschule Hannover](https://www.hs-hannover.de/)
-von Jakob Voß veranstaltet wird. Die Veranstaltung entspricht dem Teilmodul
+von Jakob Voß durchgeführt wurde. Die Veranstaltung entspricht dem Teilmodul
 MWM-317-02 *Computerunterstützte Integration heterogenen Wissens* im vierten
 Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
 
@@ -52,32 +52,37 @@ Semester des Masterstudiengang Informations- und Wissensmanagement (MWM).
   [methoden-der-datenintegration.md](methoden-der-datenintegration.md)
   ([PDF](methoden-der-datenintegration.pdf))
 
-* Vorstellung: *The Many Forms of a Single Fact*
+* Franziska Braun:
+  [The Many Forms of a Single Fact](many-forms-of-a-single-fact.pdf)
 
 * **Schemafreie Daten**
   [daten-und-schemas.md](daten-und-schemas.md)
   ([PDF](daten-und-schemas.pdf))
 
-* Vorstellung: *Personen-Identifier in Wikidata*
+* Friederike Kühn:
+  [Übersicht von Personen-Identifiern in Wikidata](personen-identifier-in-wikidata.pdf)
 
 * Bericht zur Anwendung von *Wikidata als Normdaten-Hub*\
   <https://hackmd.io/p/S1YmXWC0e>
 
 * *Mittagspause*
 
-* Vorstellung: *Ontology-Mapping mit Wikidata*
+* Nadine Schröder:
+  [Ontology-Mapping mit Wikidata](ontology-mapping-mit-wikidata.pdf)
+  (+[Anhang](ontology-mapping-mit-wikidata-anhang.pdf))
 
 * **Mapping und Matching** von Ontologien und Schemata
   [mapping-und-matching.md](mapping-und-matching.md)
   ([PDF](mapping-und-matching.pdf))
 
-* Vorstellung: *Normalisierung von Dokumentformaten für einfache Beschreibungstexte*
+* Frieda Josi:
+  [Normalisierung von Dokumentformaten für einfache Beschreibungstexte](normalisierung-dokumentformate.pdf)
 
 * **Künstliche Intelligenz** zur Informationsintegration\
   [kuenstliche-intelligenz.md](kuenstliche-intelligenz.md])
   [PDF](kuenstliche-intelligenz.pdf])
 
-## Dokumente
+## Lizenz
 
-Für interne Dokumente gibt es einen geschlossenen Moodle-Bereich:
-<https://moodle.hs-hannover.de/course/view.php?id=5367>
+Sofern nicht anders angegeben können alle Inhalte dieses Repositories z.B. als Open Educational Resources unter den Bedingungen der Creative Commons-Lizenz CC BY-SA 3.0 DE weiterverwendet werden.
+
