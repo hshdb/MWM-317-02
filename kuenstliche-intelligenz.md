@@ -85,9 +85,10 @@ Bsp. Google 2017: *mobile first* -> *AI first*
 * Text
 * Messwerten
 
+\vfill
+
 "Content" / Daten als Beobachtungen\
-=>\
-"strukturierte Daten" / Daten als Fakten
+--> "strukturierte Daten" / Daten als Fakten
 
 ## Die Idee
 
@@ -133,7 +134,10 @@ Bsp. Google 2017: *mobile first* -> *AI first*
 
 [@Borges1952]
 
-Viele Möglichkeiten von Unbekanntem --> Begrenzte Menge von Bekanntem
+\vfill
+
+Viele Möglichkeiten von Unbekanntem\
+--> begrenzte Menge von Bekanntem
 
 # Natural Language Processing (NLP)
 
@@ -154,4 +158,4 @@ Beispiele zum Ausprobieren
 * <http://www.opencalais.com/>
 * <https://gate.d5.mpi-inf.mpg.de/webaida/>
 
-
+## Literatur
